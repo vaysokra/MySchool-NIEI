@@ -21,7 +21,7 @@
 - physical layer
 ##### numbers of subnet (N=network , H=host)
 - 193.15.0.000|00000 / 24 -> 27
-- => 255(N).255(N).255(N).224(N) | 0(H)/27  
+- =>SubnetMask : 255(N).255(N).255(N).224(N) | 0(H)/27  
 - N = 2^n - 2       // n : bit ខ្ចី   example : N = 2^3 - 2 = 6 Networks
 - Spc = 2^n - 2     // n : bit នៅសល់  example : Spc = 2^5 - 2 = 30 Addresses
 - => N1 = 193.15.0.32/27 => we got Spc[1->30] = 193.15.0.[34->63]  ex: Spc1 = 193.15.0.34
