@@ -31,3 +31,4 @@
 - => N5 = 193.15.0.150/27   
 - => N6 = 193.15.0.192/27   
 - ===> we got 6 Networks and each with 30 addresses
+- 193.15.0.0/27 => subnet Mask : 255.255.255.224
